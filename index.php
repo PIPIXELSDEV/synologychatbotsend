@@ -27,4 +27,4 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, "payload=$payload");
 $response = curl_exec($ch); 
 curl_close($ch);
  
-echo $response;
+//echo $response;
